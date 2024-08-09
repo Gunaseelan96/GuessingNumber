@@ -1,0 +1,136 @@
+body{
+    background-image: url("./background.jpeg");
+    /* width: 1366px; */
+    height: 270px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed ;
+
+}
+#heading{
+    width: 100%;
+    height: 50px;
+    /* background-color: aqua; */
+    text-align: center;
+    font-size: xx-large;
+    font-weight:bolder;
+}
+
+#container1 #startdiv{
+    margin-top: 150px;
+    width: 100%;
+    height: 75px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#container1 #startdiv #startbtn{
+    margin:0px 5px;
+    width: 100px;
+    height: 25px;
+    font-size: 15px;
+    border: none;
+    border-radius: 15px;
+    background-color: aqua;
+}
+
+#container2 {
+    margin-top: 150px;
+    width: 100%;
+    height: 75px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#container2 #playername #namefield{
+    border: 2px solid aqua;
+    border-radius: 10px;
+    padding: 5px;
+    padding-left: 15px;
+    font-size: 15px;
+    font-style: italic;
+}
+
+#container2 #playername #Enter{ 
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 25px;
+    /* border: 2px solid black; */
+    background-color: aqua;
+    font-size: 15px;
+    margin-left:20px;
+}
+
+#container2 #playername #nameerr{
+    margin-left: -100px;
+    color: red;
+}
+
+
+
+#container2 #playgame #inputfield{
+    padding:2px 15px;
+    /* padding-left: 25px; */
+    width: 230px;
+    height: 20px;
+    /* border: 2px solid black; */
+    border: none;
+    border-bottom: 1px solid black;
+    /* border-radius: 10px; */
+}
+
+#container2 #playgame #Check{
+    border: none;
+    border-radius: 10px;
+    width: 100px;
+    height: 25px;
+    /* border: 2px solid black; */
+    background-color: aqua;
+    font-size: 15px;
+    margin-left:20px;
+}
+
+#container2 #playgame #resultPreview{
+    margin-right:210px ;
+}
+
+#container2 #playgame #resultspan{
+    /* border-bottom: 2px solid black;
+   font-size: 50px; */
+   letter-spacing: 7px;
+   
+}
+
+#container2 #playgame #details{
+    text-align: justify;
+    margin-left: 320px;
+    
+}
+
+
+#result{
+    margin-top: 150px;
+    margin-left: 200px;
+    width: 1000px;
+    height: 110px;
+    text-align: center;
+    font-size: 20px;
+    border: 2px solid greenyellow;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    /* border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px; */
+}
+
+#result #startbt{
+margin-bottom: 100px;
+border: none;
+border-radius: 10px;
+width: 100px;
+height: 25px;
+/* border: 2px solid black; */
+background-color: aqua;
+font-size: 15px;
+}
+
