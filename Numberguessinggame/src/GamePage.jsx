@@ -128,7 +128,6 @@ function Gamepage() {
       const comparisonResult = compareNumbers(input, randoms);
       
       setResult(comparisonResult);
-      // timeConverstion(elapsedTime);*****************************************************
       if (comparisonResult === "++++") {
        
         setFinalTime(elapsedTime);
