@@ -53,7 +53,15 @@ function Gamepage() {
   const checkHighScore = () => {
     const minTiming = Math.min(...allData.map(data => data.seconds));
     // console.log('mint : ' + minTiming);
-    const minObject = allData.find(data => data.seconds === minTiming);
+    const minarrObject = allData.filter(data => data.seconds === minTiming);
+    const minattObject = Math.min(...minarrObject.map(data => data.Attempt));
+    const minObject = minarrObject.find(data => data.Attempt === minattObject);
+    console.log("arrobj ");
+    console.log(minarrObject);
+    console.log("min att ");
+    console.log(minattObject);
+    console.log("minobj");
+    console.log(minObject);
     setHighscore(minObject);
     // console.log(minObject);
   }
@@ -144,7 +152,7 @@ function Gamepage() {
             Attempt: move + 1,
             seconds: second
           }
-       if(highscore.seconds===second){
+       if(highscore.seconds===second && highscore.Attempt===move+1){
         setNewBest(true);
         setNewBesttxt("Its Same as Best Score, Try little More");
         console.log( "Already present");
